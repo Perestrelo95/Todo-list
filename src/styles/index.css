@@ -1,3 +1,30 @@
+html {
+    background: #ddd;  
+    height: 100%;
+        display: flex;
+    }
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .App {
+        font-family: sans-serif;
+        text-align: center;
+    }
+    .Title {
+        font-size: 80px;
+        text-align: center;
+    }
+    .Text{
+        text-align: center;
+    }
+    .Input{
+        text-align: center;
+    }
+    .Count{
+        text-align: center;
+    }
 
 /* 
 
