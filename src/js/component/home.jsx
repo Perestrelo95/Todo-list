@@ -1,14 +1,12 @@
 import React from "react";
-import List from "./List.jsx";
-import Title from "./Title.jsx";
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import { List } from "./List";
+import { Title } from "./Title";
 
 //create your first component
 const Home = () => {
 	return (
 		<React.Fragment>
-			<Title />
+			<Title text={"todos"} />
 			<List />
 		</React.Fragment>
 	);
